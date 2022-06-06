@@ -1,0 +1,12 @@
+.loading {
+    width: max-content;
+    margin: 0 auto;
+}
+
+
+.text {
+    color: darkgreen;
+    font-size: 200px;
+    letter-spacing: 10px;
+
+}

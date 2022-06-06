@@ -1,0 +1,116 @@
+.headerBlock {
+    background-color: #061f1f;
+}
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.header > a > img {
+    width: 400px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+}
+
+.menuItem {
+    position: relative;
+    display: flex;
+    column-gap: 30px;
+}
+
+.menuItem > li > a {
+    color: white;
+}
+
+.menuItem > li > a:hover {
+    color: #f1f2f6;
+}
+
+.menuItem > li:hover .subMenu {
+    display: flex;
+}
+
+.subMenu {
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+}
+
+.subMenu > ul {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 5px 0;
+    transition: 500ms;
+    z-index: 9999;
+}
+
+.subMenuItems {
+    padding: 5px 40px;
+    background-color: #ffffff;
+    transition: 200ms;
+}
+
+.subMenuItems > a {
+    color: #000000;
+}
+
+.subMenuItems:hover {
+    background-color: #faf7f7;
+}
+
+.signInBlock {
+
+    display: flex;
+    align-items: center;
+    column-gap: 33px;
+}
+
+.formBlock {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    height: 30px;
+    width: 190px;
+    border: none;
+    padding-left: 5px;
+    padding-right: 35px;
+    border-bottom: 3px solid black;
+}
+
+.btnSearch {
+    height: 21%;
+    width: 28px;
+    border: none;
+    position: relative;
+    left: -25px;
+    background: url("/src/assets/images/search-solid.svg") no-repeat bottom left;
+    cursor: pointer;
+
+}
+
+.btnLogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 35px;
+    width: 120px;
+    background-color: #ebf5f3;
+    color: #130a0a;
+    font-size: 15px;
+}
+
+.btnLogin:hover {
+    background-color: #bdc7e3;
+}

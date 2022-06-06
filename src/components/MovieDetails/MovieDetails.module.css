@@ -1,0 +1,83 @@
+.photo {
+    width: 500px;
+}
+
+.detailsBlock {
+    display: flex;
+    gap: 5%;
+}
+
+.details {
+    margin-top: 20px;
+    padding: 20px 20px;
+    background-color: #8bb5f5;
+    border-radius: 20px;
+
+}
+
+.title {
+    color: #081d46;
+    font-size: 40px;
+}
+
+.overview {
+    font-family: Arial Narrow, sans-serif;
+    margin-top: 10px;
+    color: black;
+    line-height: 30px;
+}
+
+.date {
+    display: block;
+    margin-top: 10px;
+    color: #020d1f;
+}
+
+.genreBlock {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+
+
+.video {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.videoBlock{
+
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: rgba(189, 246, 195, 0.4);
+    border-radius: 20px;
+
+}
+
+.textVideo {
+    display: flex;
+    justify-content: center;
+    color: #750505;
+    font-size: 30px;
+    margin-bottom: 2%;;
+}
+
+.rate {
+    margin-top: 20px;
+}
+
+.textRating{
+    margin-bottom: 10px;
+}
+
+.rateBlock {
+    display: flex;
+    gap: 5%;
+    margin: 0 25px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,9 @@
+.listMovies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.text {
+    color: var(--text-color);
+}

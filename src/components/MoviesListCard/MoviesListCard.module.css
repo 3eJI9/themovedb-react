@@ -1,0 +1,93 @@
+.cardBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color: var(--background-card);
+    overflow: hidden;
+    transition: 500ms;
+    outline: var(--border);
+}
+
+
+.cardBlock:hover {
+    transform: scale(1.04, 1.04);
+    z-index: 100;
+    transition: 100ms;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 224px;
+    justify-content: flex-start;
+}
+
+.card > a > img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.cardTitleBlock {
+    margin: 5%;
+}
+
+.title {
+    font-size: 20px;
+    line-height: 25px;
+    font-family: "Iowan Old Style", fantasy;
+}
+
+.title > a {
+    color: #181011;
+    transition: 200ms;
+}
+
+.title > a:hover {
+    color: #0c5df5;
+    transition: 200ms;
+}
+
+.genresBlock {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-top: 7px;
+}
+
+.genres {
+    padding: 1px 3px;
+    border: 1px solid black;
+    font-size: 13px;
+}
+
+.date {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+.btn > a {
+    padding: 5px 20px;
+    border: 1px solid #2a2424;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    color: black;
+    transition: 500ms;
+}
+
+.btn > a:hover {
+    border: 1px solid #444c5b;
+    background-color: #264172;
+    color: #cfd5f3;
+    transition: 0.5s;
+}

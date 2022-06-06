@@ -1,0 +1,32 @@
+.footerBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #e7aeae;
+}
+
+.footer {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    border-top: var(--border-footer);
+}
+
+.year {
+    display: flex;
+    justify-content: center;
+    padding: 50px 10px;
+    color: var(--text);
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:33px;
+
+    width: 50px;
+    height: 50px;
+}
+
